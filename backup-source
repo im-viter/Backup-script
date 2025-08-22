@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "*** Hi $(whoami) ,get me a number for plural ***"
+
+read num1
+
+echo "*** Enter two number ***"
+
+read num2
+
+
+
+(( sum = num1 + num2 ))
+
+echo "*** Your plural numbers is $sum ***"
+
+if ((num1>50));then
+	echo "your number is too big."
+	for x in 1 400;do 
+		echo "$x try again"
+	done
+fi
+
+if ((num2>50));then
+	echo "your number is too big."
+fi
+
