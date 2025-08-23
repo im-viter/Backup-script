@@ -1,27 +1,24 @@
 #!/bin/bash
 
-echo "*** Hi $(whoami) ,get me a number for plural ***"
 
-read num1
+read -p "Enter the file or directory for backup:" oneinput
 
-echo "*** Enter two number ***"
+read -p "Enter the road for saveing backup:" twoinput
 
-read num2
+count=1
 
-
-
-(( sum = num1 + num2 ))
-
-echo "*** Your plural numbers is $sum ***"
-
-if ((num1>50));then
-	echo "your number is too big."
-	for x in 1 400;do 
-		echo "$x try again"
-	done
+if [ ! -e "$oneinput" ]; then
+	echo "This file or directory is fail"
+	exit
 fi
 
-if ((num2>50));then
-	echo "your number is too big."
+if [ ! -d "$twoinput" ]; then
+	echo "dont redy ; create it"
+	mkdir -p "$twoinput"
 fi
 
+backup_name="$(basename "$oneinput")-$(date +%Y-%m-%d-%H:%M).tar.gz"
+
+tar cfzv "$twoinput/$backup_name" --checkpoint=.10 "$oneinput"
+
+cowsay -f tux "*** Your backup was successful ***"
