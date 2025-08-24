@@ -5,4 +5,4 @@
 
 ![Photo](https://github.com/im-viter/Shell-script/blob/master/Images/photo_5861536817873013626_x.jpg)
 
-<img width="150">
+<img width="40">
