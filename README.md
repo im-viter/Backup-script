@@ -4,5 +4,6 @@
 - [Backup-script](https://github.com/im-viter/Shell-script/blob/master/Scripts/backup-source): create a script at a file or directory.
 
 
-
+<p align="center">
 <img src="https://github.com/im-viter/Shell-script/blob/master/Images/photo_5861536817873013626_x.jpg" alt="photo" float="center" width="120">
+</p>
