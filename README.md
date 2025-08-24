@@ -1,1 +1,1 @@
-hi this is my backup script.
+# Bash scripting 
