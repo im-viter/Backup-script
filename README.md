@@ -5,5 +5,5 @@
 
 
 <p align="center">
-<img src="https://github.com/im-viter/Shell-script/blob/master/Images/photo_5861536817873013626_x.jpg" alt="photo" float="center" width="120">
+<img src="https://github.com/im-viter/Shell-script/blob/master/Images/photo_5861536817873013626_x.jpg" alt="photo" float="center" width="170">
 </p>
