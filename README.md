@@ -5,4 +5,4 @@
 
 ![Photo](https://github.com/im-viter/Shell-script/blob/master/Images/photo_5861536817873013626_x.jpg)
 
-<img width="40">
+<img src="https://github.com/im-viter/Shell-script/blob/master/Images/photo_5861536817873013626_x.jpg" width="40">
